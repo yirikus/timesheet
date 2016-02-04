@@ -6,6 +6,6 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.control.TableView?>
 <TableView xmlns:fx="http://javafx.com/fxml"
-           fx:controller="cz.yirikus.controller.AppController"
+           fx:controller="cz.yirikus.controller.ContentController"
            fx:id="timesheetTable">
 </TableView>
