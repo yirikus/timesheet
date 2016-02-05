@@ -8,7 +8,9 @@
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="cz.yirikus.controller.AppController">
     <top> <fx:include source="navbar.fxml"/></top>
+    <left><Button text="x"/> </left>
     <center> <fx:include source="content.fxml"/> </center>
+    <right><Button text="x"/></right>
 
 
 </BorderPane>

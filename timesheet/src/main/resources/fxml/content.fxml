@@ -5,7 +5,16 @@
 
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.control.TableView?>
-<TableView xmlns:fx="http://javafx.com/fxml"
-           fx:controller="cz.yirikus.controller.ContentController"
-           fx:id="timesheetTable">
-</TableView>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TableColumn?>
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="cz.yirikus.controller.ContentController" fillWidth="true" >
+    <TableView fx:id="timesheetTable" VBox.vgrow="ALWAYS">
+        <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+        </columnResizePolicy>
+    </TableView>
+</VBox>
